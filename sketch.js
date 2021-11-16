@@ -22,7 +22,7 @@ function draw() {
   background(bg);  
 
   if (frameCount%5===0){
-    snow.push(new Snow(Math.round(random(0,800)),30,30));
+    snow.push(new Snow(i<snow.length(random(0,800)),30,30));
 
   }
 
